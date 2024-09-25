@@ -1,0 +1,31 @@
+<div class="todo-list">
+  <ul>
+    <li *ngFor="let todo of todos; let i = index" class="todo-item">
+      <div class ="todo-content">
+      <h3>{{ todo.title }}</h3>
+      <p>{{ todo.description }}</p>
+      </div>
+      <div class="button-group">
+        <!-- Edit Button with Image -->
+        <button (click)="editTodo(i)">
+          <img src="assets/images/Pencil.png" alt="Edit" width="20" height="20" />
+        </button>
+
+        <!-- Delete Button with Image -->
+        <button (click)="deleteTodo(i)">
+          <img src="assets/images/Trash.png" alt="Delete" width="20" height="20" />
+        </button>
+
+        <!-- Complete Button with Image -->
+        <button (click)="completeTask(i)">
+          <img src="assets/images/Vector.png" alt="Complete" width="20" height="20" />
+        </button>
+      </div>
+    </li>
+  </ul>
+
+  <!-- Add Task Button with Image -->
+  <button class="add-task-button" routerLink="/add">
+    <img src="assets/images/Add New ToDo Button.png" alt="Add Task" width="50" height="50" />
+  </button>
+</div>

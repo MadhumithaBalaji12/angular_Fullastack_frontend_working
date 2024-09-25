@@ -1,0 +1,114 @@
+/* .footer {
+    display: flex; /* Use Flexbox for layout
+    justify-content: space-between; /* Space between the halves
+    align-items: center; /* Center items vertically
+    padding: 1rem; /* Add some padding around the footer
+    background: white; /* Background color for the footer
+}
+
+.footer-half {
+    flex: 1; /* Each half takes equal space
+    display: flex; /* Use Flexbox for the halves
+    justify-content: center; /* Center button horizontally
+    align-items: center; /* Center button vertically
+}
+
+.footer-button {
+    background-color: white; /* Button background color
+    color: white; /* Button text color
+    padding: 0.75rem 1.5rem; /* Button padding
+    font-size: 1rem; /* Button font size
+    border: none; /* Remove border
+    border-radius: 8px; /* Rounded corners
+    cursor: pointer; /* Pointer cursor on hover
+    transition: background-color 0.3s ease; /* Smooth background transition
+    display: flex; /* Use flex to align image and text
+    align-items: center; /* Center the image and text vertically
+}
+
+.footer-button img.button-icon {
+    width: 20px; /* Set the desired width
+    height: 20px; /* Set the desired height
+    margin-right: 0.5rem; /* Space between image and text
+}
+
+small{
+    color: black;
+}
+.footer-button:hover {
+    background-color: #f0f0f0; /* Change button color on hover
+}
+
+h3{
+    color: #B3B7EE;
+}
+ */
+ .footer {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between the halves */
+    align-items: center; /* Center items vertically */
+    padding: 1rem; /* Add some padding around the footer */
+    background: white; /* Background color for the footer */
+}
+
+.footer-half {
+    flex: 1; /* Each half takes equal space */
+    display: flex; /* Use Flexbox for the halves */
+    justify-content: center; /* Center button horizontally */
+    align-items: center; /* Center button vertically */
+}
+
+// .footer-button {
+//     background-color: transparent; /* Make the background transparent */
+//     color: black; /* Button text color */
+//     padding: 0.75rem 1.5rem; /* Button padding */
+//     font-size: 1rem; /* Button font size */
+//     border: none; /* Remove border */
+//     border-radius: 8px; /* Rounded corners */
+//     cursor: pointer; /* Pointer cursor on hover */
+//     transition: background-color 0.3s ease; /* Smooth background transition */
+//     display: flex; /* Use flex to align image and text */
+//     align-items: center; /* Center the image and text vertically */
+// }
+
+.footer-button img.button-icon {
+    width: 20px; /* Set the desired width */
+    height: 20px; /* Set the desired height */
+    margin-right: 0.5rem; /* Space between image and text */
+}
+
+small {
+    color: black;
+}
+
+.footer-button:hover {
+    background-color: #f0f0f0; /* Change button color on hover */
+}
+
+h3 {
+    color: #B3B7EE;
+}
+.footer-button {
+    background-color: transparent; /* Make the background transparent */
+    color: black; /* Button text color */
+    padding: 0.75rem 1.5rem; /* Button padding */
+    font-size: 1rem; /* Button font size */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+   /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    display: flex; /* Use flex to align image and text */
+    align-items: center; /* Center the image and text vertically */
+    /* Remove any box shadow */
+    outline: none; /* Remove the outline that appears on focus */
+}
+
+.footer-button img.button-icon {
+    width: 20px; /* Set the desired width */
+    height: 20px; /* Set the desired height */
+    margin-right: 0.5rem; /* Space between image and text */
+}
+
+.footer-button:hover {
+    background-color: #f0f0f0; /* Change button color on hover */
+}

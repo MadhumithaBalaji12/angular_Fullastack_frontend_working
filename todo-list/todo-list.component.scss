@@ -1,0 +1,49 @@
+.todo-list {
+    max-width: 100%;              /* Allow the todo list to take the full width */
+    margin: 0;                    /* Remove margins */
+    padding: 20px;                /* Add some padding */
+    display: flex;                /* Use Flexbox for alignment */
+    flex-direction: column;   
+    background-color: rgb(183, 177, 216);    /* Stack items vertically */
+  }
+  
+  .todo-item {
+    display: flex;                /* Use Flexbox */
+    justify-content: space-between; /* Space between content and buttons */
+    align-items: center;          /* Center items vertically */
+    margin-bottom: 20px;          /* Space between todo items */
+    border: 1px solid #ccc;       /* Optional: border around todo items */
+    padding: 15px;                /* Padding inside todo items */
+    border-radius: 8px;           /* Rounded corners */
+    width: 100%;       
+    background-color:white;           /* Make todo items take full width */
+  }
+  
+  .todo-content {
+    flex-grow: 1;                 /* Allow content to take available space */
+  }
+  
+  .button-group {
+    display: flex;                /* Use Flexbox for button group */
+    gap: 10px;                   /* Space between buttons */
+  }
+  
+  .add-task-button {
+    align-self: flex-end;         /* Align this button to the right */
+    margin-top: 20px;            /* Space above the Add Task button */
+    background-color: transparent; /* Optional: transparent background */
+    border: none;                 /* No border */
+    cursor: pointer;              /* Pointer cursor on hover */
+    width: auto;                  /* Auto width for the button */
+  }
+  
+  button {
+    background-color: transparent; /* Optional: transparent button background */
+    border: none;                 /* Remove default button border */
+    cursor: pointer;              /* Pointer cursor on hover */
+  }
+  
+  button img {
+    vertical-align: middle;       /* Align image vertically */
+  }
+  

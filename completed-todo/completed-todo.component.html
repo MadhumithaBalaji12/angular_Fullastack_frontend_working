@@ -1,0 +1,10 @@
+
+<div class="completed-todo">
+    <h2>Completed Task</h2>
+    <ul>
+        <li *ngFor="let todo of completedTodos">
+            {{ todo.title }} - {{ todo.description }}
+        </li>
+    </ul>
+    <button routerLink="/">Back To Home</button>
+</div>

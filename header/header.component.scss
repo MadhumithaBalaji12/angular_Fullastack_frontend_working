@@ -1,0 +1,17 @@
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space between title and calendar */
+    width: 100%;  
+    align-items: center;   
+    padding: 1rem 0rem 0rem 1rem;              /* Full width for header container */
+}
+
+.calendar {
+    
+height: 20px;    
+   align-items: end;
+    display: flex;
+/* Push calendar to the right end */
+}

@@ -1,0 +1,41 @@
+.add-todo {
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 2rem; /* Add some padding around the container */
+    text-align: center; /* Center text within elements */
+}
+
+.add-todo h1 {
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+.add-todo form {
+    width: 100%; /* Full width for the form */
+    max-width: 400px; /* Limit max width for better aesthetics */
+}
+
+.add-todo input[type="text"],
+.add-todo textarea {
+    width: 100%; /* Full width for input and textarea */
+    padding: 0.5rem; /* Padding inside the input fields */
+    margin-bottom: 1rem; /* Space below input fields */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.add-todo button {
+    background-color: #B3B7EE; /* Button background color */
+    color: white; /* Button text color */
+    padding: 0.75rem 1.5rem; /* Button padding */
+    font-size: 1rem; /* Button font size */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.add-todo button:hover {
+    background-color: #A8A9E9; /* Change button color on hover */
+}

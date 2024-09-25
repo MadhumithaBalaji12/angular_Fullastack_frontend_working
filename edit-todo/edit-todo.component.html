@@ -1,0 +1,12 @@
+<div class="edit-task">
+   <h2>Edit Todo</h2>
+   <form (ngSubmit)="editTodo()">
+       <label for="title"></label>
+       <input type="text" id="title" [(ngModel)]="todo.title" name="title" placeholder="title" /><br /><br />
+       <label for="description"></label>
+       <textarea id="description" [(ngModel)]="todo.description" name="description" placeholder="Description"></textarea>
+       <br /><br />
+       <button type="submit">Save Changes</button>
+   </form>
+   <button routerLink="/">Back to Home</button>
+</div>

@@ -1,0 +1,38 @@
+.edit-task {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 2rem; 
+    text-align: center; 
+}
+
+.edit-task h2 {
+    margin-bottom: 1rem; 
+}
+
+.edit-task input,
+.edit-task textarea {
+    width: 100%; 
+    max-width: 400px; 
+    padding: 0.5rem; 
+    margin: 0.5rem 0; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.edit-task button {
+    background-color: #B3B7EE; 
+    color: white; 
+    padding: 0.75rem 1.5rem; 
+    font-size: 1rem; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-top: 1rem; 
+}
+
+.edit-task button:hover {
+    background-color: #A8A9E9; /* Change button color on hover */
+}
